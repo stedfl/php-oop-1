@@ -9,12 +9,17 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
-  font-style: italic;
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+  font-style: italic;
   color: lightgray;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 0.4rem;
 }
 
 header {
@@ -48,4 +53,7 @@ header img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.icon {
+  color: red;
 }
