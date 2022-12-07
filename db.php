@@ -10,4 +10,7 @@ $movie_2->set_poster("https://guidatv.sky.it/uuid/9a244376-d700-461a-be95-9fefdc
 $movie_2->set_description();
 
 $movie_3 = new Movie("Erin Brockovich - Forte come la verità", ["biografico"], 2000, new Crew(["Julia Roberts", "Albert Finney", "Aaron Eckhart"], "Steven Soderbergh", "Danny DeVito", "Universal Pictures"), "Erin Brockovich");
+$movie_3->set_description();
+
+$movies = [$movie_1, $movie_2, $movie_3];
 ?>
