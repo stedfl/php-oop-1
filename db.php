@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/modals/Movie.php';
+include __DIR__ . '/Models/Movie.php';
 
 $movie_1 = new Movie("La Leggenda del pianista sull'oceano", ["drammatico", "musicale", "sentimentale"], 1998, new Crew(["Tim Roth", "Pruitt Taylor Vince"], "Giuseppe Tornatore", "Francesco Tornatore", "Medusa Distribuzione"),"The Legend of 900" );
 $movie_1->set_poster("https://m.media-amazon.com/images/I/71aWiw3TB-L._AC_SL1200_.jpg");
